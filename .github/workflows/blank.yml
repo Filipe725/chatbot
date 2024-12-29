@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot AI Nav</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+    #chat-container {
+      width: 400px;
+      height: 600px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+  </style>
+</head>
+<body>
+  <div id="chat-container">
+    <!-- Chatbot será carregado aqui -->
+  </div>
+
+  <!-- Código do chatbot -->
+  <co-pilot 
+    platform-id="18503d0f-0b73-48be-9d76-a4e878df983c" 
+    user-id="2de158fa-d7ef-422a-9f59-ed538484d28c" 
+    chatbot-id="7fd406b3-b138-48fd-80bc-9727e0eb60ab" 
+    is-local="false">
+    <a href="https://www.chatsimple.ai/?utm_source=widget&utm_medium=referral">AI Nav</a>
+  </co-pilot>
+  <script src="https://cdn.chatsimple.ai/ai-loader.js" defer></script>
+</body>
+</html>
